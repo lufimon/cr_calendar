@@ -1,6 +1,6 @@
-import 'package:cr_calendar_example/res/colors.dart';
-import 'package:cr_calendar_example/utills/constants.dart';
-import 'package:cr_calendar_example/utills/extensions.dart';
+import 'package:cr_calendar_plus_example/res/colors.dart';
+import 'package:cr_calendar_plus_example/utills/constants.dart';
+import 'package:cr_calendar_plus_example/utills/extensions.dart';
 import 'package:flutter/material.dart';
 
 class DatePickerTitle extends StatelessWidget {

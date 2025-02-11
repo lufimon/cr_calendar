@@ -1,10 +1,10 @@
-import 'package:cr_calendar/cr_calendar.dart';
-import 'package:cr_calendar_example/res/colors.dart';
-import 'package:cr_calendar_example/utills/constants.dart';
-import 'package:cr_calendar_example/utills/extensions.dart';
-import 'package:cr_calendar_example/widgets/date_picker_title_widget.dart';
-import 'package:cr_calendar_example/widgets/picker_day_item_widget.dart';
-import 'package:cr_calendar_example/widgets/week_days_widget.dart';
+import 'package:cr_calendar_plus/cr_calendar_plus.dart';
+import 'package:cr_calendar_plus_example/res/colors.dart';
+import 'package:cr_calendar_plus_example/utills/constants.dart';
+import 'package:cr_calendar_plus_example/utills/extensions.dart';
+import 'package:cr_calendar_plus_example/widgets/date_picker_title_widget.dart';
+import 'package:cr_calendar_plus_example/widgets/picker_day_item_widget.dart';
+import 'package:cr_calendar_plus_example/widgets/week_days_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
@@ -63,11 +63,12 @@ class _CreateEventDialogState extends State<CreateEventDialog> {
                   style: const TextStyle(color: violet, fontSize: 16),
                   decoration: InputDecoration(
                     enabledBorder: UnderlineInputBorder(
-                      borderSide: BorderSide(color: violet.withOpacity(1)),
+                      borderSide:
+                          BorderSide(color: violet.withValues(alpha: 1)),
                     ),
                     hintText: 'Enter the event name',
-                    hintStyle:
-                        TextStyle(color: violet.withOpacity(0.6), fontSize: 16),
+                    hintStyle: TextStyle(
+                        color: violet.withValues(alpha: 0.6), fontSize: 16),
                   ),
                   controller: _eventNameController,
                 ),
@@ -102,7 +103,8 @@ class _CreateEventDialogState extends State<CreateEventDialog> {
                               foregroundDecoration: BoxDecoration(
                                 border: index == _selectedColorIndex
                                     ? Border.all(
-                                        color: Colors.black.withOpacity(0.3),
+                                        color:
+                                            Colors.black.withValues(alpha: 0.3),
                                         width: 2)
                                     : null,
                                 shape: BoxShape.circle,

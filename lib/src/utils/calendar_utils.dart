@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:jiffy/jiffy.dart';
 
-import '../../cr_calendar.dart';
+import '../../cr_calendar_plus.dart';
 
 /// Returns date for [dayOfWeek] and for [row] in which it take place
 Jiffy mapWeekDayAndRowToDate(Jiffy beginRange, int dayOfWeek, int row) {

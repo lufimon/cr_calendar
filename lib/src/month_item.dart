@@ -1,11 +1,11 @@
-import 'package:cr_calendar/cr_calendar.dart';
-import 'package:cr_calendar/src/contract.dart';
-import 'package:cr_calendar/src/events_overlay.dart';
-import 'package:cr_calendar/src/extensions/datetime_ext.dart';
-import 'package:cr_calendar/src/models/event_count_keeper.dart';
-import 'package:cr_calendar/src/month_calendar_widget.dart';
-import 'package:cr_calendar/src/utils/event_utils.dart';
-import 'package:cr_calendar/src/widgets/default_weekday_widget.dart';
+import 'package:cr_calendar_plus/cr_calendar_plus.dart';
+import 'package:cr_calendar_plus/src/contract.dart';
+import 'package:cr_calendar_plus/src/events_overlay.dart';
+import 'package:cr_calendar_plus/src/extensions/datetime_ext.dart';
+import 'package:cr_calendar_plus/src/models/event_count_keeper.dart';
+import 'package:cr_calendar_plus/src/month_calendar_widget.dart';
+import 'package:cr_calendar_plus/src/utils/event_utils.dart';
+import 'package:cr_calendar_plus/src/widgets/default_weekday_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:jiffy/jiffy.dart';
 

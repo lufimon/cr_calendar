@@ -1,6 +1,6 @@
-import 'package:cr_calendar/src/contract.dart';
-import 'package:cr_calendar/src/customization/builders.dart';
-import 'package:cr_calendar/src/models/drawers.dart';
+import 'package:cr_calendar_plus/src/contract.dart';
+import 'package:cr_calendar_plus/src/customization/builders.dart';
+import 'package:cr_calendar_plus/src/models/drawers.dart';
 import 'package:flutter/material.dart';
 
 class WeekEventsWidget extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:cr_calendar/cr_calendar.dart';
+import 'package:cr_calendar_plus/cr_calendar_plus.dart';
 import 'package:flutter/material.dart';
 
 /// Builder for customization week days row at top of the calendar widget.

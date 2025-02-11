@@ -1,14 +1,14 @@
 import 'dart:core';
 
-import 'package:cr_calendar/cr_calendar.dart';
-import 'package:cr_calendar_example/res/colors.dart';
-import 'package:cr_calendar_example/utills/constants.dart';
-import 'package:cr_calendar_example/utills/extensions.dart';
-import 'package:cr_calendar_example/widgets/create_event_dialog.dart';
-import 'package:cr_calendar_example/widgets/day_events_bottom_sheet.dart';
-import 'package:cr_calendar_example/widgets/day_item_widget.dart';
-import 'package:cr_calendar_example/widgets/event_widget.dart';
-import 'package:cr_calendar_example/widgets/week_days_widget.dart';
+import 'package:cr_calendar_plus/cr_calendar_plus.dart';
+import 'package:cr_calendar_plus_example/res/colors.dart';
+import 'package:cr_calendar_plus_example/utills/constants.dart';
+import 'package:cr_calendar_plus_example/utills/extensions.dart';
+import 'package:cr_calendar_plus_example/widgets/create_event_dialog.dart';
+import 'package:cr_calendar_plus_example/widgets/day_events_bottom_sheet.dart';
+import 'package:cr_calendar_plus_example/widgets/day_item_widget.dart';
+import 'package:cr_calendar_plus_example/widgets/event_widget.dart';
+import 'package:cr_calendar_plus_example/widgets/week_days_widget.dart';
 import 'package:flutter/material.dart';
 
 /// Main calendar page.
@@ -155,8 +155,8 @@ class _CalendarPageState extends State<CalendarPage> {
       events: [
         CalendarEventModel(
           name: '1 event',
-          begin: DateTime(now.year, now.month, (now.day).clamp(1, 28)),
-          end: DateTime(now.year, now.month, (now.day).clamp(1, 28)),
+          begin: DateTime(now.year, now.month, now.day.clamp(1, 28)),
+          end: DateTime(now.year, now.month, now.day.clamp(1, 28)),
           eventColor: eventColors[0],
         ),
         CalendarEventModel(
@@ -173,8 +173,8 @@ class _CalendarPageState extends State<CalendarPage> {
         ),
         CalendarEventModel(
           name: '4 event',
-          begin: DateTime(now.year, now.month - 1, (now.day).clamp(1, 28)),
-          end: DateTime(now.year, now.month + 1, (now.day + 5).clamp(1, 28)),
+          begin: DateTime(now.year, now.month - 1, now.day.clamp(1, 28)),
+          end: DateTime(now.year, now.month + 1, now.day + 5.clamp(1, 28)),
           eventColor: eventColors[3],
         ),
         CalendarEventModel(

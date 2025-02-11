@@ -1,4 +1,4 @@
-import 'package:cr_calendar_example/widgets/event_widget.dart';
+import 'package:cr_calendar_plus_example/widgets/event_widget.dart';
 import 'package:flutter/cupertino.dart';
 
 const violet = Color(0xff7F51F5);

@@ -1,4 +1,4 @@
-import 'package:cr_calendar/src/contract.dart';
+import 'package:cr_calendar_plus/src/contract.dart';
 import 'package:flutter/material.dart';
 
 ///Represent calendar day body
@@ -86,7 +86,11 @@ class DayItem extends StatelessWidget {
     } else {
       return isWithinMonth
           ? Theme.of(context).textTheme.bodySmall?.color
-          : Theme.of(context).textTheme.bodySmall?.color?.withOpacity(0.75);
+          : Theme.of(context)
+              .textTheme
+              .bodySmall
+              ?.color
+              ?.withValues(alpha: 0.75);
     }
   }
 }

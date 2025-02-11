@@ -1,6 +1,6 @@
-import 'package:cr_calendar/cr_calendar.dart';
-import 'package:cr_calendar_example/utills/constants.dart';
-import 'package:cr_calendar_example/utills/extensions.dart';
+import 'package:cr_calendar_plus/cr_calendar_plus.dart';
+import 'package:cr_calendar_plus_example/utills/constants.dart';
+import 'package:cr_calendar_plus_example/utills/extensions.dart';
 import 'package:flutter/material.dart';
 
 /// Draggable bottom sheet with events for the day.

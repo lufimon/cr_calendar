@@ -1,10 +1,10 @@
-import 'package:cr_calendar/src/contract.dart';
-import 'package:cr_calendar/src/cr_calendar.dart';
-import 'package:cr_calendar/src/extensions/datetime_ext.dart';
-import 'package:cr_calendar/src/extensions/jiffy_ext.dart';
-import 'package:cr_calendar/src/models/calendar_event_model.dart';
-import 'package:cr_calendar/src/models/drawers.dart';
-import 'package:cr_calendar/src/models/event_count_keeper.dart';
+import 'package:cr_calendar_plus/src/contract.dart';
+import 'package:cr_calendar_plus/src/cr_calendar_plus.dart';
+import 'package:cr_calendar_plus/src/extensions/datetime_ext.dart';
+import 'package:cr_calendar_plus/src/extensions/jiffy_ext.dart';
+import 'package:cr_calendar_plus/src/models/calendar_event_model.dart';
+import 'package:cr_calendar_plus/src/models/drawers.dart';
+import 'package:cr_calendar_plus/src/models/event_count_keeper.dart';
 import 'package:jiffy/jiffy.dart';
 
 ///Returns list of events for [date]

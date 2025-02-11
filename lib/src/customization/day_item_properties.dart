@@ -1,4 +1,4 @@
-import 'package:cr_calendar/cr_calendar.dart';
+import 'package:cr_calendar_plus/cr_calendar_plus.dart';
 
 /// Class with properties for building custom day item widget.
 ///

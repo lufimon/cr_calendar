@@ -1,5 +1,5 @@
-import 'package:cr_calendar/cr_calendar.dart';
-import 'package:cr_calendar/src/models/date_range.dart';
+import 'package:cr_calendar_plus/cr_calendar_plus.dart';
+import 'package:cr_calendar_plus/src/models/date_range.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

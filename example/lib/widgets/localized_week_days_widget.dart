@@ -1,5 +1,5 @@
-import 'package:cr_calendar/cr_calendar.dart';
-import 'package:cr_calendar_example/res/colors.dart';
+import 'package:cr_calendar_plus/cr_calendar_plus.dart';
+import 'package:cr_calendar_plus_example/res/colors.dart';
 import 'package:flutter/material.dart';
 
 /// Widget that represents week days in row above calendar month view.
@@ -26,7 +26,7 @@ class LocalizedWeekDaysWidget extends StatelessWidget {
         child: Text(
           weekDay,
           style: TextStyle(
-            color: violet.withOpacity(0.9),
+            color: violet.withValues(alpha: 0.9),
           ),
         ),
       ),

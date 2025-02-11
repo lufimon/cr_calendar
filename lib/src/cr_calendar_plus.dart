@@ -1,9 +1,9 @@
-import 'package:cr_calendar/src/contract.dart';
-import 'package:cr_calendar/src/customization/builders.dart';
-import 'package:cr_calendar/src/extensions/datetime_ext.dart';
-import 'package:cr_calendar/src/models/calendar_event_model.dart';
-import 'package:cr_calendar/src/month_item.dart';
-import 'package:cr_calendar/src/utils/debouncer.dart';
+import 'package:cr_calendar_plus/src/contract.dart';
+import 'package:cr_calendar_plus/src/customization/builders.dart';
+import 'package:cr_calendar_plus/src/extensions/datetime_ext.dart';
+import 'package:cr_calendar_plus/src/models/calendar_event_model.dart';
+import 'package:cr_calendar_plus/src/month_item.dart';
+import 'package:cr_calendar_plus/src/utils/debouncer.dart';
 import 'package:flutter/material.dart';
 import 'package:jiffy/jiffy.dart';
 

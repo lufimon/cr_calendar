@@ -1,5 +1,5 @@
-import 'package:cr_calendar_example/pages/calendar_page.dart';
-import 'package:cr_calendar_example/res/colors.dart';
+import 'package:cr_calendar_plus_example/pages/calendar_page.dart';
+import 'package:cr_calendar_plus_example/res/colors.dart';
 import 'package:flutter/material.dart';
 
 void main() {

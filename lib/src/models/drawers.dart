@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:cr_calendar/cr_calendar.dart';
+import 'package:cr_calendar_plus/cr_calendar_plus.dart';
 import 'package:flutter/material.dart';
 
 final class WeekDrawer {

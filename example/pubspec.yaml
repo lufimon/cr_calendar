@@ -1,4 +1,4 @@
-name: cr_calendar_example
+name: cr_calendar_plus_example
 description: Demonstrates how to use the cr_calendar plugin.
 
 version: 1.0.0+1
@@ -14,10 +14,10 @@ dependencies:
 
   cupertino_icons: ^1.0.5
 
-  cr_calendar:
+  cr_calendar_plus:
     path: ../
 
-  intl: ^0.18.1
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
