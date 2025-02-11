@@ -1,6 +1,6 @@
 name: cr_calendar_plus
 description: Awesome calendar with customizations, range picking and event showing.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/lufimon/cr_calendar
 
 topics:
